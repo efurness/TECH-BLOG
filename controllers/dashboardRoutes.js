@@ -13,15 +13,27 @@ router.get('/', async (req, res) => {
       ],
     });
 
+    
     // Serialize data so the template can read it
     const posts = postData.map((post) => post.get({ plain: true }));
 
     // Pass serialized data and session flag into template
     res.render('allPosts', { 
+      layout:"dashboard",
       posts, 
     });
   } catch (err) {
     res.status(500).json(err);
   }
 });
+
+router.get('/new', (req, res) => {
+
+
+  res.render('newpost');
+});
+
+
+router.post('')
+
 module.exports = router
