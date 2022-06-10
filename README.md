@@ -18,7 +18,7 @@
 
 # DESCRIPTION 
 
-This is a complex command line application to make a dashboard tech blog site with usage to post blogs and utilize login and logout abilities.  This Full-Stack application was designed and built using the MVC (Model View Controller) paradigm, with a server-side API with user authentication, as well as, a Node server connection.  Sequelize was used to interact with a MYSQL database.  A JAWS database was added in Heroku. The API routes include comment, post, user, home, and dashboard.  THe views contained the the layout handlebars including dashboard and main, while the views files contained additional handlebars.  
+This is a complex command line application to make a dashboard tech blog site with usage to post blogs and utilize login and logout abilities.  This Full-Stack application was designed and built using the MVC (Model View Controller) paradigm, with a server-side API with user authentication, as well as, a Node server connection.  Sequelize was used to interact with a MYSQL database.  A JAWS database was added in Heroku. The API routes include comment, post, user, home, and dashboard.  THe views contained the layout handlebars including dashboard and main, while the views additionally contained additional handlebars as pages for the website.  
 
 # INSTALLATION 
 
