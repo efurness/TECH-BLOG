@@ -5,14 +5,16 @@
 
 # TABLE OF CONTENTS 
 
-1. [Project Description](#project-description)
-2. [Installation Instructions](#installation)
-3. [Usage Information](#usage)
-4. [License](#license)
-5. [Contributor Guidelines](#contributors)
-6. [Test Instructions](#tests)
-7. [Questions](#questions)
-8. [Contact Me](##contact)
+  - [Project Description](#project-description)
+  - [[Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution](#contribution)
+  - [License](#license)
+  - [Test Instructions](#tests)
+  - [Questions](#questions)
+  - [Deployed To ](#deployed-to)
+  - [Contact](#contact-me)
+
 
 # DESCRIPTION 
 
