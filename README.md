@@ -3,22 +3,28 @@
 
 [GitHub license](https://img.shields.io/badge/license-undefined-blue.svg)
 
+# DESCRIPTION 
+
+This is a complex command line application to make a dashboard tech blog site with usage to post blogs and utilize login and logout abilities.  This Full-Stack application was designed and built using the MVC (Model View Controller) paradigm, with a server-side API with user authentication, as well as, a Node server connection.  Sequelize was used to interact with a MYSQL database.  A JAWS database was added in Heroku. The API routes include comment, post, user, home, and dashboard.  THe views contained the layout handlebars including dashboard and main, while the views additionally contained additional handlebars as pages for the website.  
+
 # TABLE OF CONTENTS 
 
   - [Project Description](#project-description)
+  - [Deployed To ](#deployed-to)
   - [[Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [License](#license)
   - [Tests](#tests)
   - [Questions](#questions)
-  - [Deployed To ](#deployed-to)
   - [Contact](#contact-me)
 
 
-# DESCRIPTION 
+## DEPLOYED TO
 
-This is a complex command line application to make a dashboard tech blog site with usage to post blogs and utilize login and logout abilities.  This Full-Stack application was designed and built using the MVC (Model View Controller) paradigm, with a server-side API with user authentication, as well as, a Node server connection.  Sequelize was used to interact with a MYSQL database.  A JAWS database was added in Heroku. The API routes include comment, post, user, home, and dashboard.  THe views contained the layout handlebars including dashboard and main, while the views additionally contained additional handlebars as pages for the website.  
+[TECH BLOG Site - GitHub] (https://github.com/efurness/TECH-BLOG.git)
+
+[TECH BLOG Site - HEROKU] (https://peaceful-bayou-08897.herokuapp.com/)
 
 # INSTALLATION 
 
