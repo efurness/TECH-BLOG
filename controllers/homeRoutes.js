@@ -3,6 +3,8 @@ const { Post, Comment, User } = require('../models');
 
 router.get('/', async (req, res) => {
   try {
+    console.log(req)
+    console.log(req.session.logged_in)
     // Get all posts and JOIN with user data
     const postData = await Post.findAll({
       include: [
@@ -28,11 +30,16 @@ router.get('/', async (req, res) => {
 router.get('/post/:id', async (req, res) => {
   try {
     const postData = await Post.findByPk(req.params.id, {
-      include: [User],
-    });
+    
+      include: [
+        {
+          model: User,
+          attributes: ['username'],
+        },
+      ],    });
 
     const post = postData.get({ plain: true });
-
+        console.log(post)
     res.render('single-post', {
       post
     });

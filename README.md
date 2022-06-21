@@ -11,7 +11,7 @@ This is a complex command line application to make a dashboard tech blog site wi
 
   - [Project Description](#project-description)
   - [Deployed To ](#deployed-to)
-  - [[Installation](#installation)
+  - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [License](#license)
